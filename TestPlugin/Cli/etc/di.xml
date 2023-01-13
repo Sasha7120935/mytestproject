@@ -7,4 +7,7 @@
             </argument>
         </arguments>
     </type>
+        <type name="TestPlugin\Cli\Model\Generation">
+            <plugin name="TestPlugin_Cli" type="TestPlugin\Cli\Plugin\Generation" sortOrder="10" disabled="false"  />
+        </type>
 </config>
